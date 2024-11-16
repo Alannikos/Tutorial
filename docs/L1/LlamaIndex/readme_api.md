@@ -317,7 +317,7 @@ st.title("llama_index_demo")
 @st.cache_resource
 def init_models():
     embed_model = HuggingFaceEmbedding(
-        model_name="/root/model/paraphrase-multilingual-MiniLM-L12-v2"
+        model_name="/root/model/sentence-transformer"
     )
     Settings.embed_model = embed_model
 
