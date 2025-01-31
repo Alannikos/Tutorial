@@ -10,8 +10,8 @@
 本次实战营的微调内容包括了以下三个部分：
 
 - Supervised Fine-Tuning (SFT) 微调数据格式介绍
-- 微调数据的制作流程 —— 了解并掌握数据构建方法
-- 使用 [XTuner](https://github.com/InternLM/xtuner) 进行大模型微调 —— 熟悉 XTuner 工具的操作
+- 微调数据的制作流程 -- 了解并掌握数据构建方法
+- 使用 [XTuner](https://github.com/InternLM/xtuner) 进行大模型微调 -- 熟悉 XTuner 工具的操作
 
 这节课你会收获：
 - 针对 特定业务场景（如 具备自我认知的智能助手）进行微调
