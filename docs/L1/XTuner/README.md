@@ -1,21 +1,25 @@
 # XTuner 微调实践微调 
 
-<img width="900" alt="image" src="https://github.com/user-attachments/assets/e374baf5-283b-4c44-a7db-79caf5e0c3ce">
+<!-- <img width="900" alt="image" src="https://github.com/user-attachments/assets/e374baf5-283b-4c44-a7db-79caf5e0c3ce"> -->
 
-本文档将介绍 InternLM 个人小助手认知
+本文档将介绍 `XTuner微调实战：打造具备自我认知与夸赞能力的智能小助手`
 
 ## 写在前面
 
-微调内容需要使用 30% A100 才能完成。
-本次实战营的微调内容包括了以下两个部分：
-1. SFT 数据的获取
-2. 使用 [InternLM2.5-7B-Chat](https://huggingface.co/internlm/internlm2_5-7b-chat) 模型微调 
+本节课程内容需要使用 30% A100 才能完成，请确保通关前面关卡以获得30% A100 显卡资源完成课程。
+本次实战营的微调内容包括了以下三个部分：
+
+- Supervised Fine-Tuning (SFT) 微调数据格式介绍
+- 微调数据的制作流程 —— 了解并掌握数据构建方法
+- 使用 [XTuner](https://github.com/InternLM/xtuner) 进行大模型微调 —— 熟悉 XTuner 工具的操作
 
 这节课你会收获：
-* 针对业务场景（如特殊自我认知的机器人）的微调能力
-* 一个属于自己的语言聊天机器人
+- 针对 特定业务场景（如 具备自我认知的智能助手）进行微调
+- 训练并拥有一个 属于自己的智能聊天机器人
 
-XTuner 文档链接：[XTuner-doc-cn](https://xtuner.readthedocs.io/zh-cn/latest/)
+
+
+XTuner 文档链接：[XTuner-doc](https://xtuner.readthedocs.io/zh-cn/latest/)
 
 ## 环境配置与数据准备
 
